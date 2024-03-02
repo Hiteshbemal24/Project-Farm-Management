@@ -3,6 +3,11 @@
 ## Overview
 Welcome to the Farming Management System! This application is designed to assist farmers in managing their products efficiently. With a user-friendly interface, farmers can add, buy, and sell products seamlessly. The system is built using HTML, CSS, JavaScript, Bootstrap for the frontend, and Python Flask with SQLAlchemy for the backend.
 
+## Screenshots
+
+![Farming Management System](path/to/your/screenshot.png)
+
+
 ## Technologies Used
 - **Frontend:**
   - HTML
