@@ -5,7 +5,7 @@ Welcome to the Farming Management System! This application is designed to assist
 
 ## Screenshots
 
-![Farming Management System](path/to/your/screenshot.png)
+![Farming Management System](https://github.com/Hiteshbemal24/Project-Farm-Management/tree/main/Screenshots)
 
 
 ## Technologies Used
