@@ -33,3 +33,39 @@ python3 -m venv venv
 venv\Scripts\activate
 # For macOS/Linux
 source venv/bin/activate
+```
+### 2. Installing Required Packages
+Once the virtual environment is activated, install the necessary Python packages using pip:
+
+```bash
+pip install flask flask-sqlalchemy mysqlclient flask-login
+```
+
+### 3. XAMPP Setup
+Ensure that XAMPP is installed on your machine, and start the Apache and MySQL services. Create a new database for the Farming Management System.
+
+## Running the Application
+### 1.Clone the repository:
+```bash
+git clone https://github.com/your_username/farming-management-system.git
+cd farming-management-system
+```
+### 2.Activate the virtual environment:
+```bash
+# For Windows
+venv\Scripts\activate
+# For macOS/Linux
+source venv/bin/activate
+```
+### 3.Run the Flask application:
+```bash
+python main.py
+```
+### 4.Access the application in your web browser at 'http://localhost:5000'.
+
+# Features
+
+ - Add new products to the inventory
+ - Buy products from other farmers
+ - Sell products to other farmers
+### Feel free to explore and customize the Farming Management System according to your needs!
