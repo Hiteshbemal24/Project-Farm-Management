@@ -31,11 +31,11 @@ To ensure a clean and isolated Python environment, follow these steps to create 
 cd your_project_directory
 
 # Create a virtual environment
-python3 -m venv venv
+python3 -m venv venv or py -m venv venv
 
 # Activate the virtual environment
 # For Windows
-venv\Scripts\activate
+.\venv\Scripts\activate
 # For macOS/Linux
 source venv/bin/activate
 ```
@@ -47,7 +47,7 @@ pip install flask flask-sqlalchemy mysqlclient flask-login
 ```
 
 ### 3. XAMPP Setup
-Ensure that XAMPP is installed on your machine, and start the Apache and MySQL services. Create a new database for the Farming Management System.
+Ensure that XAMPP is installed on your machine, and start the Apache and MySQL services. Create a new database (name in this project is:- farmers )for the Farming Management System.
 
 ## Running the Application
 ### 1.Clone the repository:
@@ -58,7 +58,7 @@ cd farming-management-system
 ### 2.Activate the virtual environment:
 ```bash
 # For Windows
-venv\Scripts\activate
+.\venv\Scripts\activate
 # For macOS/Linux
 source venv/bin/activate
 ```
